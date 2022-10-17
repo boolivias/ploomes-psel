@@ -8,9 +8,9 @@ function pageCount(n, p) {
 
   let n_aux = n
   let p_aux = p
-  if (n_aux % 2 !== 0)
+  if (n_aux % 2 !== 0) // prepara valores para calcular a distância em flips
     n_aux--
-  if (p_aux % 2 !== 0)
+  if (p_aux % 2 !== 0) // prepara valores para calcular a distância em flips
     p_aux--
 
   const from_beginning = Math.floor(p_aux / 2)

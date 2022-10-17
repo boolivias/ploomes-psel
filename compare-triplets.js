@@ -7,6 +7,7 @@ function compareTriplets(a, b) {
       a_score++
     else if (a_rate < b[index])
       b_score++
+    // Empate não precisa ser contabilizado
   })
 
   return [a_score, b_score]
